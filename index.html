@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Fresh Juice</title>
+  </head>
+  <body>
+    <!-- <div class="container">
+      <header class="d-flex justify-content-center  ">
+        <ul class="nav nav-pills ">
+          <li class="nav-item">
+            <a href="#" class="nav-link" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Menu </a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </header> -->
+    <!-- </div> -->
+
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Home.html"> Fresh & Natural</a>
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Fresh & Natural
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <form class="d-flex mt-3" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-dark" type="submit">Search</button>
+          </form>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/graphql-playground">GraphQL Playground</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="./images/look.jpg"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Different types of fruit juices in glasses"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            Fresh & Healthy
+          </h1>
+          <p class="lead">Delicious, freshly made juices for you</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button
+              type="button"
+              class="btn btn-outline-secondary btn-lg px-4"
+              fdprocessedid="rlwa5"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container px-3" id="featured-3">
+      <h2 class="pb-2 border-bottom">Our Services</h2>
+      <div class="row g-5 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col px-4">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="200"
+              height="50"
+              fill="currentColor"
+              class="bi bi-cup-straw"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M13.902.334a.5.5 0 0 1-.28.65l-2.254.902-.4 1.927c.376.095.715.215.972.367.228.135.56.396.56.82q0 .069-.011.132l-.962 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87s-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 5.132A1 1 0 0 1 3.5 5c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 3.614 6.867 3.5 8 3.5c.712 0 1.389.045 1.985.127l.464-2.215a.5.5 0 0 1 .303-.356l2.5-1a.5.5 0 0 1 .65.278M9.768 4.607A14 14 0 0 0 8 4.5c-1.076 0-2.033.11-2.707.278A3.3 3.3 0 0 0 4.645 5c.146.073.362.15.648.222C5.967 5.39 6.924 5.5 8 5.5c.571 0 1.109-.03 1.588-.085zm.292 1.756C9.445 6.45 8.742 6.5 8 6.5c-1.133 0-2.176-.114-2.95-.308a6 6 0 0 1-.435-.127l.838 8.03c.013.121.06.186.102.215.357.249 1.168.69 2.438.69s2.081-.441 2.438-.69c.042-.029.09-.094.102-.215l.852-8.03a6 6 0 0 1-.435.127 9 9 0 0 1-.89.17zM4.467 4.884s.003.002.005.006zm7.066 0-.005.006zM11.354 5a3 3 0 0 0-.604-.21l-.099.445.055-.013c.286-.072.502-.149.648-.222"
+              />
+            </svg>
+          </div>
+          <h3 class="fs-3 px-4 text-body-emphasis">Various Juices</h3>
+          <p>A wide variety of fresh fruit and vegetable juices.</p>
+        </div>
+
+        <div class="feature col px-4">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="200"
+              height="50"
+              fill="currentColor"
+              class="bi bi-clock"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"
+              />
+              <path
+                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"
+              />
+            </svg>
+          </div>
+          <h3 class="fs-3 text-body-emphasis">Quick Service</h3>
+          <p>Get your juice faster with our efficient service.</p>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="200"
+              height="50"
+              fill="currentColor"
+              class="bi bi-truck"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+              />
+            </svg>
+          </div>
+          <h3 class="fs-3 text-body-emphasis">Home Delivery </h3>
+          <p>
+           Juices delivered to your home or office
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container px-3" id="featured-3">
+      <h2 class="pb-2 border-bottom">Why Us</h2>
+      
+
+
+     <div class="container">
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('./images/first.jpg'); background-position: center; background-size:cover;"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-bottom text-shadow-1"
+            >
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                variety of things
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('./images/second.jpg'); background-position: center; background-size:cover;"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-bottom textwhite text-shadow-1"
+            >
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Hand Picked 
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('./images/third.jpg'); background-size:60%; background-position: center; "
+          >
+            <div class="d-flex flex-column h-100 p-5 pb-3  text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Have a blast 
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+     <div class="container">
+        <div class="bg-white  text-secondary px-4 py-5 text-center">
+             <div class="py-5"> 
+                         <h1 class="display-5 fw-bold text-dark">About us</h1> 
+                    <div class="col-lg-6 mx-auto">
+                             <p class="fs-5 mb-4">where fresh fruits transform into delightful and healthy beverages. We're passionate about crafting refreshing juices, smoothies, and vibrant bowls packed with natural goodness. Join us for a taste of pure, invigorating vitality!</p>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> 
+                            <button type="button" class="btn btn-dark btn-lg px-4 me-sm-3 fw-bold" fdprocessedid="477qpr">Contact us</button>
+                             
+                         </div> 
+                    </div>
+             </div>
+         </div>   
+    </div>
+
+
+
+     <div class="container">
+       <footer class="py-3 my-4"> 
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+         
+        </ul>
+         <p class="text-center text-body-secondary">© 2025 Company, Inc</p> 
+        </footer> 
+      </div>
+
+  </body>
+</html>
